@@ -41,7 +41,7 @@ def get_github_token():
         pass
     
     # Try to load from config
-    config_path = Path(__file__).parent.parent.parent / 'config' / 'env.json'
+    config_path = Path(__file__).parent.parent / 'config' / 'env.json'
     if config_path.exists():
         try:
             with open(config_path) as f:
@@ -94,7 +94,7 @@ def make_github_api_request(endpoint, token=None):
     headers = {'Accept': 'application/vnd.github.v3+json'}
     
     if token:
-        headers['Authorization'] = f'token {token}'
+        headers['Authorization'] = f'Bearer {token}'
     
     try:
         req = urllib.request.Request(url, headers=headers)
