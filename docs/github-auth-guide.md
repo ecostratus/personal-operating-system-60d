@@ -132,7 +132,17 @@ gh repo list
 
 # Check rate limit
 gh api rate_limit
+
+# Run the test script (Python)
+python3 scripts/test_github_auth.py
 ```
+
+The `test_github_auth.py` script will:
+- Check if gh CLI is authenticated
+- Look for GitHub tokens in environment or config
+- Test API access with your credentials
+- Display your authenticated user info
+- Show your current rate limit
 
 ## Security Best Practices
 

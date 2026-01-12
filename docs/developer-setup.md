@@ -52,6 +52,16 @@ gh auth status
 
 You should see confirmation that you're logged into GitHub.com.
 
+#### Test Authentication
+
+Run the test script to verify your authentication setup:
+
+```bash
+python3 scripts/test_github_auth.py
+```
+
+This will check for GitHub tokens and test API access.
+
 ### 3. Install Python Dependencies
 
 #### For Job Discovery
