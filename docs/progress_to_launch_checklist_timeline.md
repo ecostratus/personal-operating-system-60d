@@ -7,11 +7,17 @@ This is the single source of truth for status, phase boundaries, artifacts, and 
 
 Canonical source: Progress‑to‑Launch Checklist & Timeline (Updated, PM‑Friendly)
 
+## Governance Reference
+Governance Reference
+Phase 3C is sealed per the Governance Model.
+All active work is constrained by the governance rules, sealed artifacts, and drift controls defined in docs/governance-model.md.
+
 ## Phase Status & Versions
 - Phase 1 — Foundations: Done — v0.1.0
 - Phase 2A — Early Pipeline: Done — v0.1.1
 - Phase 2C — Discovery/Filters: Done — v0.2.0
 - Phase 3 — Active: Current = Phase 3C (Normalization) — v0.3.0-Phase3C-Normalization
+ - Phase 3 — Active: Current = Phase 3C (Normalization) — v0.3.0-Phase3C-Normalization
 - Phase 4 — Future: Not Started
 
 ## Phase Boundaries (Canonical)
